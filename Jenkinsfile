@@ -7,7 +7,7 @@ pipeline {
             }
             
         }
-        stage('aving artifact') {
+        stage('Saving artifact') {
             steps {
                 archiveArtifacts artifacts: 'dist/trainSchedule.zip', fingerprint: true
             }
